@@ -2,17 +2,34 @@ import React from "react";
 
 import { contact } from '../data';
 
-import { useRef } from "react";
+import { useState } from "react";
+
 
 const Contact = () =>{
 
-    const ref = useRef();
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
 
-    React.useEffect(() => {
-        if (ref.current) {
-          ref.current.focus();
-        }
-      }, []);
+      const handleChange = (e) => {
+        setFormData({
+          ...formData,
+          [e.target.name]: e.target.value
+        });
+      };
+
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+        setFormData({
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
+        });
+    }
 
     return(
         <div className="section bg-primary" id="contact">
@@ -37,14 +54,14 @@ const Contact = () =>{
                             </div>
                         })}
                     </div>
-                    <form action="https://formsubmit.co/patrykwieczorek081@gmail.com" method="POST" className="space-y-8 w-full max-w-[780px]">
+                    <form onSubmit={handleSubmit} action="https://formsubmit.co/patrykwieczorek081@gmail.com" method="POST" className="space-y-8 w-full max-w-[780px]">
                         <div className="flex gap-8">
-                            <input type="text" name="name" className="input" placeholder="Your name" required/>
-                            <input type="email" name="email" className="input" placeholder="Your email" required/>
+                            <input onChange={handleChange} value={formData.name} type="text" name="name" className="input" placeholder="Your name" required/>
+                            <input onChange={handleChange} value={formData.email} type="email" name="email" className="input" placeholder="Your email" required/>
                         </div>
-                        <input required name="subject" type="text" className="input" placeholder="Subject"/>
-                        <textarea required name="message" className="textarea" placeholder="Your message"></textarea>
-                        <button type="submit" className="btn btn-lg bg-accent hover:bg-accent-hover mx-auto sm:mx-0" ref={ref}>Send nessage</button>
+                        <input  onChange={handleChange} value={formData.subject} required name="subject" type="text" className="input"  placeholder="Subject"/>
+                        <textarea onChange={handleChange} value={formData.message} required name="message" className="textarea" placeholder="Your message"></textarea>
+                        <button type="submit" className="btn btn-lg bg-accent hover:bg-accent-hover mx-auto sm:mx-0">Send nessage</button>
                     </form>
                 </div>
             </div>

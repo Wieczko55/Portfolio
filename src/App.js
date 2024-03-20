@@ -13,7 +13,7 @@ import Cv from './components/Cv';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Hero />
       <Brands />

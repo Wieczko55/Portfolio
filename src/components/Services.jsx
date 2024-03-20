@@ -59,7 +59,7 @@ const Services = () =>{
             {ye ? <div className={'justify-center rounded-2xl px-8 sm:py-4 py-2 flex flex-col fixed top-[50%] left-[50%] sm:mt-[-180px] mt-[-220px] w-[300px] sm:w-[600px] sm:ml-[-300px] ml-[-150px] bg-gray-300 z-10 duration-50'} style={{visibility: ye? 'visible' : 'hidden'}}>
                 <IoMdClose size={25} onClick={backToPage} className="hover:cursor-pointer mt-4 sm:mt-1"/>
                 <h2 className="text-black text-xl md:text-2xl lg:text-3xl font-semibold text-center sm:mt-10 mt-6">Web developer</h2>
-                <p className="text-center mt-4">4 Years experience of creating and developing web sites.</p>
+                <p className="text-center mt-4">3 Years experience of creating and developing web sites.</p>
                 <ul className="list-style-none mt-8 mb-10">
                     <li className="flex"><FaAngleRight className="mt-1 mr-2"/> I develop the user interface</li>
                     <li className="flex"><FaAngleRight className="mt-1 mr-2"/> Web page develompment</li>
@@ -72,7 +72,7 @@ const Services = () =>{
             {ye1 ? <div className={'justify-center rounded-2xl px-8 sm:py-4 py-2 flex flex-col fixed top-[50%] left-[50%] sm:mt-[-180px] mt-[-220px] w-[300px] sm:w-[600px] sm:ml-[-300px] ml-[-150px] bg-gray-300 z-10 duration-50'} style={{visibility: ye1? 'visible' : 'hidden'}}>
                 <IoMdClose size={25} onClick={backToPage1} className="hover:cursor-pointer mt-4 sm:mt-1"/>
                 <h2 className="text-black text-xl md:text-2xl lg:text-3xl font-semibold text-center sm:mt-10 mt-6">UI/UX Designer</h2>
-                <p className="text-center mt-4">4 Years experience of creating and developing web sites.</p>
+                <p className="text-center mt-4">3 Years experience of creating and developing web sites.</p>
                 <ul className="list-style-none mt-8 mb-10">
                     <li className="flex"><FaAngleRight className="mt-1 mr-2"/> I develop the user interface</li>
                     <li className="flex"><FaAngleRight className="mt-1 mr-2"/> I care about making a good impression on the user</li>
@@ -85,7 +85,7 @@ const Services = () =>{
             {ye2? <div className={'justify-center rounded-2xl px-8 sm:py-4 py-2 flex flex-col fixed top-[50%] left-[50%] sm:mt-[-180px] mt-[-220px] w-[300px] sm:w-[600px] sm:ml-[-300px] ml-[-150px] bg-gray-300 z-10 duration-50'} style={{visibility: ye2? 'visible' : 'hidden'}}>
                 <IoMdClose size={25} onClick={backToPage2} className="hover:cursor-pointer mt-4 sm:mt-1"/>
                 <h2 className="text-black text-xl md:text-2xl lg:text-3xl font-semibold text-center sm:mt-10 mt-6">Web designer</h2>
-                <p className="text-center mt-4">4 Years experience of creating and developing web sites.</p>
+                <p className="text-center mt-4">3 Years experience of creating and developing web sites.</p>
                 <ul className="list-style-none mt-8 mb-10">
                     <li className="flex"><FaAngleRight className="mt-1 mr-2"/> Visual design</li>
                     <li className="flex"><FaAngleRight className="mt-1 mr-2"/> SEO</li>
