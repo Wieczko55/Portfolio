@@ -3,7 +3,7 @@ import ReactTypingEffect from 'react-typing-effect';
 const About = () =>{
     return(
         <div id="About" className="section bg-secondary">
-             <div className="w-full flex flex-col items-center justify-ceneter p-0 my-12">
+             <div className="w-full flex flex-col items-center justify-ceneter  px-8 my-12">
              <p className='font-semibold text-gray-400 text-lg sm:text-2xl md:text-3xl lg:text-4xl text-center'>Are you looking for a good front-end developer?</p>
              <h1 className='sm:font-semibold text-white text-lg font-bold sm:text-3xl md:text-4xl lg:text-5xl mt-5'>Download my CV and&nbsp; 
                 <ReactTypingEffect className='text-accent'

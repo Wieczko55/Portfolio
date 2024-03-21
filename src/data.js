@@ -26,9 +26,9 @@ import {
   import Project1 from './assets/projects/klucz.jpg';
   import Project2 from './assets/projects/bank.jpg';
   import Project3 from './assets/projects/food.jpg';
-  import Project4 from './assets/projects/klucz.jpg';
-  import Project5 from './assets/projects/klucz.jpg';
-  import Project6 from './assets/projects/klucz.jpg';
+  import Project4 from './assets/projects/car.jpg';
+  import Project5 from './assets/projects/dataa.jpg';
+  import Project6 from './assets/projects/login.jpg';
   
   // skills images
   import SkillImg1 from './assets/skills/html5.png';
@@ -143,23 +143,23 @@ import {
     {
       id: '4',
       image: Project4,
-      name: 'project name 4',
-      category: 'web development',
-      href: 'https://wieczko55.github.io/vpn-app/',
+      name: 'car-rental app',
+      category: 'UI/UX design',
+      href: 'https://wieczko55.github.io/CarRental-app/',
     },
     {
       id: '5',
       image: Project5,
-      name: 'project name 5',
+      name: 'DataAnalytics app',
       category: 'web development',
-      href: 'https://wieczko55.github.io/vpn-app/',
+      href: 'https://wieczko55.github.io/Data-app/',
     },
     {
       id: '6',
       image: Project6,
-      name: 'project name 6',
+      name: 'Login screen project',
       category: 'web development',
-      href: 'https://wieczko55.github.io/vpn-app/',
+      href: 'https://github.com/Wieczko55/login_screen',
     },
   ];
   

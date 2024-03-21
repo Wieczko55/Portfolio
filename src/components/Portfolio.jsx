@@ -11,7 +11,7 @@ const Portfolio = () =>{
                 <div className="flex flex-col items-center text-center">
                     <h2 className="section-title">My Recent Projects</h2>
                     <p className="subtitle">
-                       Lorem ipsum dolor site amet consectetur adipsicing elit. Dolorum beatae, est consequatur vero quisquam bitae ipsa. Ex corporis sapiente eos. 
+                    I believe that there is no better learning method than practice, so I would like to show off my latest projects, of which I have been creating a lot and have been publishing a lot lately. 
                     </p>
                 </div>
                 <Projects />
